@@ -1,0 +1,51 @@
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .5rem 1rem;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+  background: rgba(255, 255, 255, .3);
+  backdrop-filter: blur(10px);
+}
+
+.todo-item__label {
+  width: 90%;
+  display: flex;
+  align-items: center;
+}
+
+.todo-item__checkbox {
+  margin-right: 1rem;
+}
+
+.todo-item__button {
+  outline: none;
+  border: none;
+  background: none;
+  color: #42a8e48c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.todo-item__input {
+  background: none;
+  border: none;
+  outline: none;
+  width: 90%;
+}
+
+.todo-item__button:hover {
+  background: rgba(255, 255, 255, .3);
+}
+
+.todo-item__button svg {
+  width: 2em !important;
+  height: 2em !important;
+}

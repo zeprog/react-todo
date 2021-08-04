@@ -1,0 +1,45 @@
+.todo__form {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.todo__form input {
+  width: 75%;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  outline: none;
+  background: rgba(255, 255, 255, .3);
+  padding: 5px 10px;
+}
+
+.todo__form input::placeholder {
+  opacity: .5;
+}
+
+.todo__form button {
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, .3);
+  border: 1px solid #fff;
+  padding: 5px 10px;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(255,255,255,.3);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(255,255,255,.3);
+  box-shadow: 0px 0px 10px 0px rgba(255,255,255,.3);
+}
+
+@media (max-width: 500px) {
+  .todo__form {
+    display: block;
+  }
+
+  .todo__form input, .todo__form button {
+    width: 100%;
+  }
+
+  .todo__form input {
+    margin-bottom: 10px;
+  }
+}
